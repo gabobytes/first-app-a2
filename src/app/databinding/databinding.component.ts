@@ -9,6 +9,10 @@ export class DatabindingComponent implements OnInit {
     stringInterpolation = 'This is a string interpolation!';
     numberInterpolation = 2;
 
+    onTest(){
+      return true;
+    }
+
   constructor() { }
 
   ngOnInit() {
