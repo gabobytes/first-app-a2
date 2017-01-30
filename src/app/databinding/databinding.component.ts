@@ -13,6 +13,10 @@ export class DatabindingComponent implements OnInit {
       return true;
     }
 
+    onClicked(value: string){
+      alert(value);
+    }
+
   constructor() { }
 
   ngOnInit() {
